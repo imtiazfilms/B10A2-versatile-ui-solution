@@ -179,6 +179,10 @@ body {
     font-size: 0.86rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5rem;
+}
+.habit-conent {
+    margin-bottom: 55px;
 }
 .habit-card-container {
     display: grid;
@@ -189,6 +193,8 @@ body {
     font-size: 1.13rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    margin-top: 26px;
+    margin-bottom: 6px;
 }
 .habit-card p {
     font-size: 0.86rem;
@@ -197,6 +203,9 @@ body {
 }
 .habit-card img {
     border-radius: 50%;
+}
+.play-icon {
+    display: none;
 }
 
 
@@ -289,5 +298,22 @@ body {
     .card-2 p {
         font-size: 0.61rem;
         font-weight: 400;
+    }
+    .play-icon {
+        display: block;
+        color: white;
+        margin-left: 7.56px;
+        position: absolute;
+        top: 28px;
+        right: 113px;
+    }
+    .habit-card-container {
+        grid-template-columns: 1fr;
+    } 
+    .habit-card {
+        margin-bottom: 30px;
+    }
+    .habit-card h5 {
+        margin-top: 30px;
     }
 }
