@@ -352,11 +352,26 @@ body {
     }
     .extra-mile-container {
         flex-direction: column;
-    }
-    .extra-mile-title {
-        font-weight: 2rem;
+        max-width: 90%;
+        margin-top: 30px;
     }
     .extra-mile-image img {
         max-width: 100%;
+        margin: 0px 15px;
+    }
+    .extra-mile-image {
+        /* margin: 0 auto; */
+    }
+    .extra-mile-content {
+        margin: 0px 33px;
+    }
+    .extra-mile-title {
+        font-size: 2rem;
+    }
+    .res-j {
+        width: 95%;
+    }
+    .extra-mile-discription {
+        line-height: 24px;
     }
 }
