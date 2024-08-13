@@ -444,4 +444,17 @@ body {
     .extra-mile-discription {
         line-height: 24px;
     }
+    .unique-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .unique-container img {
+        opacity: 0.7;
+    }
+    .unique-container-title {
+        font-size: 1.9rem;
+    }
+    .unique-section {
+        background-position: 65%;
+    }
 }
