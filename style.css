@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Meie+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:wght@100..900&family=Meie+Script&display=swap');
 
 body {
     font-family: "Inter", sans-serif;
@@ -241,6 +241,76 @@ body {
 }
 .extra-mile-image img {
     border-radius: 18px;
+}
+/* unique section style */
+.unique-section {
+    display: flex;
+    max-width: 77%;
+    margin: 0 auto;
+    background-image: url(images/various-vegetables-black-table-with-space-message_1220-616.jpg);
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    margin-bottom: 100px;
+}
+.unique-container h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin: 0;
+    text-align: center;
+    opacity: 0.9;
+} 
+.unique-container-title {
+    color: rgba(245, 245, 245, 0.76);
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+    opacity: 0.8;
+}
+.unique-container {    
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.unique-content {
+    display: flex;
+}
+.unique-container img {
+    max-width: 70%;
+    border-radius: 20px;
+    transition: all 2s ease;
+    opacity: 0.5;
+}
+.recipes {
+    color: rgba(240, 248, 255, 0.712);
+    line-height: 25px;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1s ease, opacity 1s ease;
+    margin-top: 80px;
+
+}
+.unique-content:hover img{
+    max-width: 100%;
+    opacity: 1;
+}
+.unique-content:hover .recipes {
+    max-height: 800px;
+    opacity: 1;
+}
+.pumpkin{
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.turkey{
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 1.8rem;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
 
 /* responsive style */
