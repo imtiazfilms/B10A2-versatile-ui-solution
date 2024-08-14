@@ -334,6 +334,7 @@ body {
 .bmi-section-dispription {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.88rem;
+    line-height: 24px;
     font-weight: 400px;
     padding-top: 14px;
     margin-bottom: 50px;
@@ -535,9 +536,6 @@ table, tbody, th, tr, td {
         max-width: 100%;
         margin: 0px 15px;
     }
-    .extra-mile-image {
-        /* margin: 0 auto; */
-    }
     .extra-mile-content {
         margin: 0px 33px;
     }
@@ -562,5 +560,37 @@ table, tbody, th, tr, td {
     }
     .unique-section {
         background-position: 65%;
+    }
+    .bmi-section-head {
+        max-width: 90%;
+    }
+    .bmi-section-title {
+        font-size: 2rem;
+    }
+    .bmi-section-dispription {
+        margin-bottom: 32px;
+    } 
+    .bmi-content {
+        flex-direction: column;
+    }
+    .bmi-table {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-table-title {
+        font-size: 1rem;
+    }
+    .bmi-cal-title {
+        font-size: 1rem;
+    }
+    .bmi-cal-dispription {
+        line-height: 24px;
+    }
+    .bmi-calculator {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .btn-cal {
+        width: 60%;
     }
 }
