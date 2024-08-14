@@ -412,6 +412,7 @@ table, tbody, th, tr, td {
     border: none;
     padding: 16px;
     margin-top: 18px;
+    margin-bottom: 40px;
     cursor: pointer;
     width: 45%;
     transition: background-color 0.3s ease;
@@ -420,6 +421,64 @@ table, tbody, th, tr, td {
 .btn-cal:hover {
     background-color: #ff704d;
 }
+/* team container style */
+.team-container {
+    max-width: 77%;
+    margin: 0 auto;
+}
+.team-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+.team-discription {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 35px;
+}
+.card-container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-item {
+    position: relative;
+}
+.card-item img {
+    border-radius: 18px;
+}
+.overlay {
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+}
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    width: 97%;
+    height: 99%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+.card-title {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.932);
+    margin: 0;
+}
+.card-discription {
+    font-size: 0.88rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.562);
+    margin: 0;
+}
+
+
 /* responsive style */
 @media screen and (max-width: 576px) {
     .header-container ul {
@@ -592,5 +651,11 @@ table, tbody, th, tr, td {
     }
     .btn-cal {
         width: 60%;
+    }
+    .res-hid {
+        display: none;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
