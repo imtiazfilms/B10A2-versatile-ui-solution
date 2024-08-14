@@ -447,10 +447,10 @@ table, tbody, th, tr, td {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.card-item {
+.card-item, .card-item1, .card-item2, .card-item3, .card-item4 {
     position: relative;
 }
-.card-item img {
+.card-container img {
     border-radius: 18px;
 }
 .overlay {
@@ -652,10 +652,39 @@ table, tbody, th, tr, td {
     .btn-cal {
         width: 60%;
     }
+    .team-container {
+        max-width: 90%;
+    }
     .res-hid {
         display: none;
     }
     .card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .dark-overlay {
+        width: 100%;
+    }
+    .card-container img {
+        max-width: 100%;
+    }
+    .team-title {
+        font-size: 2rem;
+    }
+    .team-discription {
+        font-size: 0.88rem;
+        line-height: 24px;
+    }
+    .card-item1 {
+        order: 1;
+    }
+    .card-item2 {
+        order: 3;
+    }
+    .card-item3 {
+        order: 2;
+    }
+    .card-item4 {
+        order: 4;
+    }
+    
 }
