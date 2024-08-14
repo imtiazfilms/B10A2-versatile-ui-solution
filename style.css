@@ -543,6 +543,7 @@ hr {
     }
     .nav-container h2 {
         padding-left: 20px;
+        margin-bottom: 0px;
     }
     .mini-r {
         display: none;
@@ -563,6 +564,7 @@ hr {
         font-weight: 900;
         color: rgb(255, 255, 255);
         margin-bottom: 0px;
+        margin-top: 0px;
     }
     .shape {
         font-size: 2.25rem;
@@ -574,7 +576,6 @@ hr {
     .hero-btn {
         display: flex;
         gap: 24px;
-        
     }
     .btn-j {
         padding: 16px 21px 16px 21px;
