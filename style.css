@@ -7,9 +7,6 @@ body {
     padding: 0;
 }
 /* header style */
-.header-section {
-
-}
 .nav-container {
     max-width: 66.25rem;
     margin: 0 auto;
@@ -51,6 +48,10 @@ body {
     display: none;
 }
 /* hero style */
+.bg {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.120), rgb(0, 0, 0));
+}
+
 .hero-container {
     max-width: 66.25rem;
     margin: 0 auto;
@@ -81,9 +82,14 @@ body {
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
     border: none;
+    cursor: pointer;
     margin-right: 14px;
     font-size: 1.12rem;
     font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.btn-j:hover {
+    background-color: #ff704d;
 }
 .mini {
     display: none;
@@ -91,11 +97,13 @@ body {
 .btn-d {
     font-size: 1.12rem;
     font-weight: 600;
+    cursor: pointer;
     padding: 16px 40px 16px 40px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     background-color: rgba(255, 255, 255, 0);
 }
+
 .btn-j a, .btn-d a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -253,7 +261,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .unique-container h2 {
     font-size: 2.25rem;
@@ -289,8 +297,8 @@ body {
     line-height: 25px;
     max-height: 0;
     opacity: 0;
-    transition: max-height 1s ease, opacity 1s ease;
-    margin-top: 80px;
+    transition: max-height 1s ease, opacity 1.5s ease;
+    margin-top: 100px;
 
 }
 .unique-content:hover img{
@@ -308,11 +316,109 @@ body {
 }
 .turkey{
     font-family: "Bungee Tint", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 30px;
     margin-bottom: 10px;
 }
+/* bmi styles */
+.bmi-section-head {
+    max-width: 43%;
+    margin: 0 auto;
+}
+.bmi-section-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900px;
+    margin: 0;
+}
+.bmi-section-dispription {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.88rem;
+    font-weight: 400px;
+    padding-top: 14px;
+    margin-bottom: 50px;
+}
+.bmi-content {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+.bmi-table-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900px;
+}
+table, tbody, th, tr, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    
+}
+.bmi-table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.88rem;
+    font-weight: 400px;
+    line-height: 120%;
+    padding: 13px 41px 13px 24px;
+}
+.bmi-table th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 120%;
+    padding: 15px 20px 14px 23px;
+}
+.bmi-calculator {
+    max-width: 32%;
+}
+.bmi-cal-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900px;
+    margin-bottom: 0;
+}
+.bmi-cal-dispription {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.88rem;
+    font-weight: 400px;
+    padding-top: 14px;
+    margin-bottom: 24px;
+}
+.input-filed {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-filed select, input {
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    padding: 12px;
+}
+.input-filed select option {
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.btn-cal {
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1.13rem;
+    border: none;
+    padding: 16px;
+    margin-top: 18px;
+    cursor: pointer;
+    width: 45%;
+    transition: background-color 0.3s ease;
+}
 
+.btn-cal:hover {
+    background-color: #ff704d;
+}
 /* responsive style */
 @media screen and (max-width: 576px) {
     .header-container ul {
